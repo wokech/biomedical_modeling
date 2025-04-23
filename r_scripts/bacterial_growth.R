@@ -3,8 +3,11 @@
 # Claude
 
 # R Implementation
-install.packages("deSolve")
+
+
+# install.packages("deSolve")
 library(deSolve)
+library(ggplot2)
 
 # Define the growth model
 bacterial_growth <- function(t, state, parameters) {
@@ -45,13 +48,10 @@ print(paste("Population doubling time:", round(doubling_time, 2), "hours"))
 
 # Simulating Exponential Growth (Bacterial Growth Model)
 
-# Load necessary library
-library(ggplot2)
-
 # Function to simulate exponential growth
 simulate_growth <- function(N0, r, t_max) {
   # Time sequence
-  time <- seq(0, t_max, by = 1)
+  time <- seq(0, t_max, by = 0.2)
   
   # Calculate population at each time point
   population <- N0 * exp(r * time)

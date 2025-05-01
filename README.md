@@ -32,7 +32,7 @@ Physiologically based pharmacokinetic (PBPK) modeling for predicting the absorpt
 
 Link: [PBPK on Wikipedia](https://en.wikipedia.org/wiki/Physiologically_based_pharmacokinetic_modelling)
 
-![Physiologically based pharmacokinetic (PBPK) modeling](model_3_pharmacokinetics/pbpk_3.png)
+![Physiologically based pharmacokinetic (PBPK) modeling](model_3_pharmacokinetics/pbpk_2.png)
 
 ### 4. Heart Rate and Exercise
 

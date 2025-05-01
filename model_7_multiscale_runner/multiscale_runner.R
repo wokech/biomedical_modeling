@@ -1167,6 +1167,9 @@ p3
 
 ggsave("model_7_multiscale_runner/runner_6c.png", width = 9, height = 6, dpi = 300)
 
+(p1 / p2 / p3)
+
+#ggsave("model_7_multiscale_runner/runner_multiscale_model.png", width = 8, height = 12, dpi = 300)
 
 # Let's try a simpler version of the plots if the above still causes issues
 

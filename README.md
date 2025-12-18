@@ -10,6 +10,8 @@ A repo containing code for basic biological models and visualizatons.
 
 The classic Lotka-Volterra model (also known as the predator-prey model) describes the dynamic interactions between predators and their prey. It is described by a pair of nonlinear differential equations, and the model assumes that the prey consumption rate by a predator is directly proportional to the prey abundance.
 
+[Code](model_1_lotka_volterra/lotka_volterra.R)
+
 Link: [Lotka-Volterra on Wikipedia](https://en.wikipedia.org/wiki/Lotka-Volterra_equations)
 
 ![Lotka-Volterra Animated](model_1_lotka_volterra/lotka_volterra.gif)
@@ -22,6 +24,8 @@ Link: [Lotka-Volterra on Wikipedia](https://en.wikipedia.org/wiki/Lotka-Volterra
 
 Here we look at bacterial growth in a bioreactor. The Monod equation is used to describe the growth of microorganisms, and the model output demonstrates the biomass, substrate, and product concentrations.
 
+[Code](model_2_bacterial_growth/bacterial_growth.R)
+
 Link: [Bacterial Growth on Wikipedia](https://en.wikipedia.org/wiki/Monod_equation)
 
 ![Simulated bacterial growth in a bioreactor](model_2_bacterial_growth/bacterial_growth_3.png)
@@ -29,6 +33,8 @@ Link: [Bacterial Growth on Wikipedia](https://en.wikipedia.org/wiki/Monod_equati
 ### 3. Pharmaceutical Research
 
 Physiologically based pharmacokinetic (PBPK) modeling for predicting the absorption, distribution, metabolism, and excretion (ADME) of the drug labetalol in pregnant women. This is a multicompartment model that incorporates various organs, tissues, and vascular fluid flows.
+
+[Code](model_3_pharmacokinetics/pbpk.R)
 
 Link: [PBPK on Wikipedia](https://en.wikipedia.org/wiki/Physiologically_based_pharmacokinetic_modelling)
 
@@ -38,11 +44,15 @@ Link: [PBPK on Wikipedia](https://en.wikipedia.org/wiki/Physiologically_based_ph
 
 A model of the heart rate responses to exercise for individuals of different fitness levels. The heart rate is shown for various exercise phases including warm-up, increasing intensity, peak exercise, and cool down.
 
+[Code](model_4_exercise_heart_rate/modeling_heart_rate.R)
+
 ![Heart Rate and Exercise](model_4_exercise_heart_rate/modeling_heart_rate_1.png)
 
 ### 5. Blood Glucose Responses after Meal Consumption
 
 A model of blood glucose responses to meals of different glycemic indexes. Meal types influence which glucose zone the individual reaches.
+
+[Code](model_5_blood_glucose/modeling_blood_glucose.R)
 
 ![Blood Glucose after Meals](model_5_blood_glucose/modeling_blood_glucose.png)
 
@@ -50,12 +60,18 @@ A model of blood glucose responses to meals of different glycemic indexes. Meal 
 
 A model of tumor growth and its response to chemotherapy. The model also incorporates aspects of angiogenesis, VEGF, and hypoxia.
 
+[Code](model_6_tumor_growth_angio/modeling_tumor_growth_angio.R)
+
 ![Modeling Tumor Growth 1](model_6_tumor_growth_angio/modeling_tumor_growth_angio_2.png)
+
+[Code](model_6_tumor_growth_angio/modeling_tumor_growth_chemo.R)
 
 ![Modeling Tumor Growth 2](model_6_tumor_growth_angio/modeling_tumor_growth_chemo_1.png)
 
 ### 7. Distance Running
 
 Multiscale model of a runner that incorporates both training load and physiological metrics. The model provides one with a theoretical prediction of the effects of training on physiological metrics.
+
+[Code](model_7_multiscale_runner/multiscale_runner.R)
 
 ![Model of a runnner during training](model_7_multiscale_runner/runner_multiscale_model.png)
